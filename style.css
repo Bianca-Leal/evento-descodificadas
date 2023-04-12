@@ -6,11 +6,17 @@ body{
     background-color: rgba(194,123,160,1);
 }
 
-.cabecalho{
+.foto-topo{
     background-image: url(./imagem/flores.jpg);
     background-repeat: no-repeat;
-    width: 960px;
+    overflow: hidden;
+    position: absolute;
+    background-size: 100%;
+    left: 0;
+    right: 0;
     top: 0;
+    bottom: 0;
+;
 }
 
 .logotipo {
@@ -22,8 +28,7 @@ body{
     vertical-align: middle;
 }
 
-
-li img.roupas {
+img.roupas {
     display: flex;
     justify-content: space-around;
     background-color: rgba(0,0,0,.2);
@@ -32,10 +37,6 @@ li img.roupas {
     padding: 100px 0 0;
     height: 375px;
     width: 300px;
-}
-
-.clothes ul li.descricao{
-    list-style: none;
 }
 
 .instagram{
