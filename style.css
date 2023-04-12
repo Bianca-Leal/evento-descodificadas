@@ -1,0 +1,44 @@
+*{
+    font-family: 'Varela Round', sans-serif;
+}
+
+body{
+    background-color: rgba(194,123,160,1);
+}
+
+.cabecalho{
+    background-image: url(./imagem/flores.jpg);
+    background-repeat: no-repeat;
+    width: 960px;
+    top: 0;
+}
+
+.logotipo {
+    display: flex;
+    position: left;
+    max-height: 56px;
+    max-width: 225px;
+    padding: 8px 4px 8px 12px;
+    vertical-align: middle;
+}
+
+
+li img.roupas {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0,0,0,.2);
+    border: solid transparent;
+    min-height: 28px;
+    padding: 100px 0 0;
+    height: 375px;
+    width: 300px;
+}
+
+.clothes ul li.descricao{
+    list-style: none;
+}
+
+.instagram{
+    display: flex;
+    justify-content: center;
+}
